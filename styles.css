@@ -1,5 +1,4 @@
 
-
 body {
     text-align: center;
     background-color: white;
@@ -65,6 +64,17 @@ body {
     
   }
 
+#button2 {
+    background-color: #3882F6; 
+    border-radius: 8px;
+    color:#F9FAF8;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-color: white;
+    
+  }
+
 .randinfoimages {
     display: flex;
     justify-content: center;
@@ -72,6 +82,13 @@ body {
 
 
 
+}
+
+.finalbutt{
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .corgi {
@@ -107,6 +124,10 @@ body {
     background-color: #34d8eb;
 
 }
+#button2:hover {
+    background-color: #34d8eb;
+
+}
 .navbar {
     display: flex;
     color: #F9FAF8;
@@ -128,7 +149,7 @@ body {
     font-weight: lighter;
     font-style: italic;
     width: 900px;
-    text-align:center;
+    text-align: left;
 }
 .author {
     font-size: 18px;
@@ -141,9 +162,45 @@ body {
     flex-direction: column;
 }
 
+.callcontainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-self: center;
+
+}
+
+.subtainer {
+    border-radius: 15px;
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 200px;
+
+}
+
+.action h3{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    padding-top: 65px;
+    padding-left: 80px;
+    padding-right: 110px;
+}
+
+.action div {
+    margin: 0;
+    padding-left: 60px;
+}
+.subtainer div {
+    color: white;
+    font-size: 15px;
+}
 footer{
     background-color: #1F2937;
-    height: 50px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
 }
 
 
