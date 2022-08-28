@@ -61,6 +61,8 @@ body {
     width: 100px;
     height: 40px;
     justify-self: flex-end;
+    border-style: none;
+    
     
   }
 
@@ -72,6 +74,7 @@ body {
     width: 100px;
     height: 40px;
     border-color: white;
+    border-style: solid;
     
   }
 
@@ -196,11 +199,15 @@ body {
     font-size: 15px;
 }
 footer{
+    display: flex;
+    
     background-color: #1F2937;
     height: 100px;
     color: white;
-    text-align: center;
-    padding-top: 40px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-left: 600px;
 }
 
 
